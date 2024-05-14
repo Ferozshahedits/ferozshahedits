@@ -1,0 +1,12 @@
+/* Gallery Styles */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two images per row */
+    gap: 20px; /* Adjust as needed */
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
